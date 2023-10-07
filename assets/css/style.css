@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  border: none;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+}
+
+body {
+  background: #fff;
+}
+section {
+  padding: 0.938rem 3.125rem;
+}
+.image {
+  width: 25rem;
+  height: 25rem;
+}
+.img {
+  width: 21.875rem;
+  height: 28.125rem;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #eeeff1;
+  padding: 0.938rem 3.125rem;
+}
+.logo i {
+  color: #a7204c;
+}
+.logo {
+  color: #444;
+  font-size: 1.563rem;
+  font-weight: 500;
+}
+.navbar a {
+  font-size: 1rem;
+  padding: 0.625rem 1.25rem;
+  color: #444;
+  font-weight: 500;
+}
+.icons i {
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #a7204c;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  padding: 0.625rem;
+}
+/* header section ends */
+.home {
+  width: 100%;
+  position: relative;
+  background: #eeeff1;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.home .text {
+  margin: 0 4.375rem;
+}
+.home .text h1 {
+  font-size: 2.5rem;
+}
+.home .text h1 span {
+  color: #a7204c;
+}
+.home .text p {
+  margin: 1rem 0;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.btn {
+  padding: 0.625rem 1.25rem;
+  background-color: #a7204c;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 0.5rem;
+}
+
+/* home section ends */
+.about {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.about .text h2 {
+  font-size: 1.5rem;
+}
+.about .text p {
+  text-align: justify;
+  margin: 1rem 0;
+}
+.features {
+  display: grid;
+  margin-bottom: 1.25rem;
+}
+.features i {
+  font-size: 1.125rem;
+  margin-right: 1rem;
+  color: #a7204c;
+}
+
+/* about section ends here */
+
+.headings {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15.625rem, auto));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.box {
+  padding: 0.625rem;
+  background-color: #eeeff1;
+  border-radius: 0.5rem;
+  display: grid;
+}
+.box img {
+  width: 12.5rem;
+  height: 12.5rem;
+  margin-left: 1.5rem;
+  margin-bottom: 0.625rem;
+  object-fit: cover;
+  object-position: center;
+  cursor: pointer;
+}
+.box-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: #444;
+  padding: 0.625rem;
+  border-radius: 0.5rem;
+}
+.price h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+}
+.price span {
+  color: #fff;
+  margin-top: 0.313rem;
+}
+.box-text a {
+  padding: 0.625rem;
+  font-size: 1.25rem;
+  background: #111;
+  color: #fff;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* products end here */
+
+.news {
+  text-align: center;
+  margin-top: 2rem;
+  background: #eeeff1;
+  padding: 3rem;
+}
+.news h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.news form input[type="email"] {
+  padding: 1rem;
+  width: 25rem;
+  outline-color: #a7204c;
+  border-radius: 0.438rem;
+  border: 1px solid silver;
+  font-size: 1rem;
+  color: #111;
+}
+.news form input[type="submit"] {
+  cursor: pointer;
+  width: 7.5rem;
+  height: 3.125rem;
+}
+.news form input[type="submit"]:active {
+  transform: scale(0.9);
+}
+
+/* news part end here */
+.footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13.75rem, auto));
+  gap: 1rem;
+}
+.con {
+  display: flex;
+  flex-direction: column;
+}
+.con .abouts {
+  max-width: 30.125rem;
+}
+.con .abouts p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.con h3 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.con a {
+  color: #222;
+  margin-bottom: 1rem;
+}
+
+.sci .bx {
+  padding: 0.5rem;
+  font-size: 1.25rem;
+  background: #a7204c;
+  border-radius: 100%;
+  color: #fff;
+}
+.sci .bx:hover {
+  transform: scale(0.8);
+}
+.copy {
+  text-align: center;
+  padding: 0.625rem;
+  border-top: 2px dotted silver;
+}
